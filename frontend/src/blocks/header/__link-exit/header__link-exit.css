@@ -1,0 +1,13 @@
+.header__link-exit {
+  color: #a9a9a9;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header__link-exit {
+    font-size: 13px;
+  }
+}

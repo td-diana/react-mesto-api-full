@@ -1,0 +1,14 @@
+.header__login-container {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__login-container {
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-bottom: 10px;
+    max-width: min-content;
+  }
+}

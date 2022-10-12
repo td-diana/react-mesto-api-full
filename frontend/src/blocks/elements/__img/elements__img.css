@@ -1,0 +1,15 @@
+.elements__img {
+  width: 282px;
+  height: 282px;
+  border-radius: 0;
+  object-fit: cover;
+  transition: all 0.1s ease-in;
+  z-index: 1;
+  background: white;
+}
+
+.elements__img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.9;
+}

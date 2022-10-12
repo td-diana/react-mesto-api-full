@@ -1,0 +1,11 @@
+.header__title-auth {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 22px;    
+  }
+
+  .header__title-auth:hover {
+    opacity: 0.8;
+  }

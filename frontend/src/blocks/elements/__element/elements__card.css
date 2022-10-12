@@ -1,0 +1,13 @@
+.elements__card {
+  background-color: #fff;
+  border-radius: 10px;
+  /* display: grid;
+  grid-template-rows: 282px 1fr; */
+  margin: 0 auto;
+  max-width: 282px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
