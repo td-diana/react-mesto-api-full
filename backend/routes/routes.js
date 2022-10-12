@@ -6,7 +6,7 @@ const NotFoundError = require('../errors/not-found-errors');
 const { authorizationValidation, registrationValidation } = require('../middlewares/validation');
 const { createUser, login } = require('../controllers/users');
 
-app.get('/crash-test', () => {
+router.get('/crash-test', () => {
   setTimeout(() => {
     throw new Error('Сервер сейчас упадёт');
   }, 0);
